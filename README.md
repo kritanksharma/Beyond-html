@@ -1,4 +1,4 @@
-<strong> Beyond HTML </strong>
+
 
 Bare Metal -
 
@@ -76,7 +76,7 @@ NOTE -
 
 <strong>Centralization </strong>- The concentration of control of an activity or organization under a single authority. 
 
-<strong>Decentralization <strong>- Decentralization is the process of distributing or dispersing functions, powers, people or things away from a central location or authority.
+<strong>Decentralization</strong>- Decentralization is the process of distributing or dispersing functions, powers, people or things away from a central location or authority.
  
 Blockchain - 
 
@@ -86,7 +86,7 @@ Raft -(Role, Audience, Format and Topic.)
 
 Raft is a distributed consensus algorithm. It was designed to be easily understood. It solves the problem of getting multiple servers to agree on a shared state even in the face of failures.Raft works by electing a leader in the cluster.
 
-*Cluster--  A cluster refers to a collection of data points aggregated together because of certain similarities.
+*Cluster- A cluster refers to a collection of data points aggregated together because of certain similarities.
 
 *ETCD - is a strongly consistent, distributed key-value store that provides a reliable way to store data that needs to be accessed by a distributed system or cluster of machines. It gracefully handles leader elections during network partitions and can tolerate machine failure, even in the leader node.
 
