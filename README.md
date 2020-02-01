@@ -62,9 +62,74 @@ Namespace -
 
 Namespace is a set of symbols that are used to organize objects of various kinds, so that these objects may be referred to by name. A namespace ensures that all the identifiers within it have unique names so that they can be easily identified.
 
-Jail Break =
+Jail Break -
 
 Jailbreaking means bypassing the restrictions Apple puts on the operating system and taking full control of the device. With a jailbroken device, you can install apps and tweaks that aren't authorized by Apple, but you also remove the tough security protections that Apple has built into iOS.
+
+Data store -
+
+A Data Store is a connection to a store of data, whether the data is stored in a database or in one or more files. The data store may be used as the source of data for a process, or you may export the written Staged Data results of a process to a data store, or both.
+
+It is normally recommended to connect to the data store via the server. When connecting to files, this means that the files must exist in the server landing area to ensure that the server will be able to access them. However, it is also possible to pull the data onto the server using a client connection.
+
+NOTE -
+
+<strong>Centralization </strong>- The concentration of control of an activity or organization under a single authority. 
+
+<strong>Decentralization <strong>- Decentralization is the process of distributing or dispersing functions, powers, people or things away from a central location or authority.
+ 
+Blockchain - 
+
+A decentralized computation and information sharing platform that enables multiple authoritative domains,who do not trust each other ,to coordinate and collaboration in a rational decision making process.
+
+Raft -(Role, Audience, Format and Topic.)
+
+Raft is a distributed consensus algorithm. It was designed to be easily understood. It solves the problem of getting multiple servers to agree on a shared state even in the face of failures.Raft works by electing a leader in the cluster.
+
+*Cluster--  A cluster refers to a collection of data points aggregated together because of certain similarities.
+
+*ETCD - is a strongly consistent, distributed key-value store that provides a reliable way to store data that needs to be accessed by a distributed system or cluster of machines. It gracefully handles leader elections during network partitions and can tolerate machine failure, even in the leader node.
+
+*Kubernetes uses etcd to store all its data – its configuration data, its state, and its metadata. Kubernetes is a distributed system, so it needs a distributed data store like etcd. etcd lets any of the nodes in the Kubernetes cluster read and write data.
+ 
+Data Serialization -
+
+Data serialization is the process of converting structured data to a format that allows sharing or storage of the data in a form that allows recovery of its original structure.
+             
+             
+                                  -------> JSON (Javascript object notation)
+     {data serialization}         -------> YAML (Yet another markup language)
+                                  -------> XML (Extensible markup language)
+                                  -------> PROTOCOL BUFFERS(Protobuf)
+   
+ XML -  1998
+   
+Extensible Markup Language is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable
+
+Developed by: W3C (The World Wide Web Consortium is the main international standards organization for the World Wide Web).
+Extended from: SGML( The Standard Generalized Markup Language is a standard for defining generalized markup languages for documents)
+
+JSON - 2001
+
+JavaScript Object Notation is an open-standard file format or data interchange format that uses human-readable text to transmit data objects consisting of attribute–value pairs and array data types.
+JSON format is often used for serializing and transmitting structured data over a network connection. It is used primarily to transmit data between a server and web application, serving as an alternative to XML. 
+
+Extended from: JavaScript 
+
+YAML
+
+YAML Ain't Markup Language is a data serialization language that matches user’s expectations about data. It designed to be human friendly and works perfectly with other programming languages. It is useful to manage data and includes Unicode printable characters. 
+YAML is to configuration what markdown is to markup. It’s basically a human-readable structured data format. It is less complex and ungainly than XML or JSON, but provides similar capabilities. It essentially allows you to provide powerful configuration settings, without having to learn a more complex code type like CSS, JavaScript, and PHP.
+
+Protocol Buffers (Protobuf)-
+
+Protocol Buffers is a method of serializing structured data. It is useful in developing programs to communicate with each other over a wire or for storing data. The method involves an interface description language that describes the structure of some data and a program that generates source code from that description for generating or parsing a stream of bytes that represents the structured data. 
+
+
+
+
+
+
 
 
 
