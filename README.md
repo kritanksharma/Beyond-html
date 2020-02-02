@@ -1,10 +1,10 @@
 
 
-Bare Metal -
+Bare Metal 
 
 The term "bare metal" refers to a hard disk, the usual medium on which a computer's OS(operating System)is installed. The term virtualization refers to the creation of a virtual version of something, such as an OS(Operating System), a server or a network resource.
 
-Bare Metal Server-
+Bare Metal Server
 
 A 'bare-metal server' is a computer server that is a 'single-tenant physical server'. The term is used nowadays to distinguish it from modern forms of virtualization and cloud hosting. Bare-metal servers have a single 'tenant'. They are not shared between custom
 
@@ -14,15 +14,13 @@ Why ??
 
 Because of the unique combination of high performance and flexibility, bare metal servers have a wide variety of use cases for short-term, resource-intensive needs.
 
-VMware -
+Virtual Machine 
 
-VMware Workstation is a virtual machine software that is used for x86 and x86-64 computers to run multiple operating systems over a single physical host computer. Each virtual machine can run a single instance of any operating system (Microsoft, Linux, etc.) simultaneously.
+A virtual machine (VM) is a software program or operating system that not only exhibits the behavior of a separate computer, but is also capable of performing tasks such as running applications and programs like a separate computer.
 
-Why ??
+A virtual machine app creates a virtualized environment,a virtual machine that behaves like a separate computer system, complete with virtual hardware devices. The VM runs as a process in a window on your current operating system.The VM app presents this file the guest OS as a real hard drive.
 
-VMware Server is a virtualization product that makes it possible to partition a single physical server into multiple virtual machines. VMware Server facilitates software testing in virtual machines without installation and configuration. Patches and experimental operating systems can be tested as well. 
-
-Hypervisor -
+Hypervisor
 
 hypervisor, is virtualization software that is installed on hardware directly. At its core, the hypervisor is the host or operating system. It is structured to allow for the virtualization of underlying hardware components to function as if they have direct access to the hardware
 
@@ -34,13 +32,12 @@ NOTE:-
 KVM - Kernel based virtual machine. 
 Hyper-V -Windows Server Virtualization. 
 
-Virtual Machine -
+2 types:-
+Type one, or "bare metal" hypervisors: that run guest virtual machines directly on a system's hardware, essentially behaving as an operating system.
 
-A virtual machine (VM) is a software program or operating system that not only exhibits the behavior of a separate computer, but is also capable of performing tasks such as running applications and programs like a separate computer.
+Type two, or "hosted" hypervisors : that behave like normal applications that can be started and stopped like a normal program.
 
-A virtual machine app creates a virtualized environment,a virtual machine that behaves like a separate computer system, complete with virtual hardware devices. The VM runs as a process in a window on your current operating system.The VM app presents this file the guest OS as a real hard drive.
-
-Page Rank algorithm -
+Page Rank algorithm 
 
 PageRank is an algorithm used by Google Search to rank web pages in their search engine results. PageRank was named after Larry Page, one of the founders of Google. PageRank is a way of measuring the importance of website pages
 
@@ -48,7 +45,7 @@ Inventer- Larry page,Sergey Brin.
 
 PageRank works by counting the number and quality of links to a page to determine a rough estimate of how important the website is. The underlying assumption is that more important websites are likely to receive more links from other websites.
 
-Onion Routing -
+Onion Routing 
 
 Onion routing is a technique for anonymous communication over a computer network. In an onion network, messages are encapsulated in layers of encryption, analogous to layers of an onion. There is a large set of precautionary measures and best practices to make web browsing safer and more secure for users.
 
